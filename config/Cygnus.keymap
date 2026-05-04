@@ -88,7 +88,7 @@
         Move {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &kp N1  &kp N2          &kp UP_ARROW    &kp N3           &kp N4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp N5  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp N9
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp N5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp N9
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp N0  &kp N1          &kp DOWN_ARROW  &kp N3           &kp N4
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &kp N5
             >;
