@@ -69,10 +69,10 @@
 
         Symbol {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR            &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LA(S)        &kp LC(S)    &kp LC(O)  &kp LS(LG(NUMBER_1))  &trans       &trans      &trans  &kp BSLH   &kp EQUAL      &kp LBKT      &kp RBKT              &kp BSLH
-&trans           &trans       &trans     &trans                &trans       &trans      &trans  &trans     &trans         &kp MINUS     &kp SEMI              &kp SQT
-&trans           &trans       &trans     &trans                &trans       &trans      &trans  &trans                                                        &kp ESC
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR     &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LA(S)        &kp LC(S)    &kp LC(O)  &CaptureMovie  &trans       &trans      &trans  &kp BSLH   &kp EQUAL      &kp LBKT      &kp RBKT              &kp BSLH
+&trans           &trans       &trans     &trans         &trans       &trans      &trans  &trans     &trans         &kp MINUS     &kp SEMI              &kp SQT
+&trans           &trans       &trans     &trans         &trans       &trans      &trans  &trans                                                        &kp ESC
             >;
         };
 
@@ -87,10 +87,10 @@
 
         Move {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp N1  &kp N2          &kp UP_ARROW    &kp N3           &kp N4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp N5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp N9
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp N0  &kp N1          &kp DOWN_ARROW  &kp N3           &kp N4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &kp N5
+&trans  &trans  &trans                  &trans                       &trans                      &kp LA(LC(L))           &kp LC(LEFT_ARROW)    &kp UP_ARROW            &kp LC(RIGHT_ARROW)    &kp LC(LA(R))
+&trans  &trans  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(LG(RIGHT_ARROW)))  &trans  &trans      &trans  &kp LA(LC(LEFT_ARROW))  &kp LEFT_ARROW        &kp DOWN_ARROW          &kp RIGHT_ARROW        &kp LC(LA(RIGHT_ARROW))
+&trans  &trans  &trans                  &trans                       &trans  &trans      &trans  &kp LC(LG(D))           &kp LG(LEFT_BRACKET)  &kp LC(LA(DOWN_ARROW))  &kp LG(RIGHT_BRACKET)  &kp LC(LA(LS(G)))
+&trans  &trans  &trans                  &trans                       &trans  &trans      &trans  &trans                                                                                       &kp N5
             >;
         };
 
