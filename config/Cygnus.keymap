@@ -89,7 +89,7 @@
             bindings = <
 &trans  &trans      &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC         &trans                      &kp LA(LC(L))           &kp LC(LEFT_ARROW)    &kp UP_ARROW    &kp LC(RIGHT_ARROW)    &kp LC(LA(R))
 &trans  &trans      &kp LA(LC(LEFT_ARROW))  &kp LA(LC(LG(RIGHT_ARROW)))  &trans  &trans      &trans  &kp LA(LC(LEFT_ARROW))  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp LC(LA(RIGHT_ARROW))
-&trans  &kp C_MUTE  &kp K_VOLUME_DOWN       &kp K_VOLUME_UP              &trans  &trans      &trans  &kp LC(LA(D))           &kp LG(LEFT_BRACKET)  &kp LC(LA(M))   &kp LG(RIGHT_BRACKET)  &kp LC(LA(G))
+&trans  &kp K_MUTE  &kp C_VOLUME_DOWN       &kp C_VOL_UP                 &trans  &trans      &trans  &kp LC(LA(D))           &kp LG(LEFT_BRACKET)  &kp LC(LA(M))   &kp LG(RIGHT_BRACKET)  &kp LC(LA(G))
 &trans  &trans      &trans                  &trans                       &trans  &trans      &trans  &trans                                                                               &trans
             >;
         };
